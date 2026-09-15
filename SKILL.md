@@ -75,7 +75,6 @@ Define the relevant conventions before implementation. Reuse existing ones and f
 - Provide a unified configuration entry point, organized by responsibility, for the environments, paths, service endpoints, model parameters, and business parameters actually used.
 - Specify source precedence, types, defaults, and startup validation. Missing required configuration should produce actionable errors instead of silently falling back to the wrong environment.
 - Separate committable configuration, environment-specific values, and secrets. Provide examples without real secrets. Avoid hardcoding environment-specific values; fixed business constants may be centrally named.
-- Honor the host's storage policy, such as a requirement to keep project files and caches on a designated drive. Support that policy through configuration or path resolution; do not scatter machine-specific absolute paths throughout business code.
 
 ### Validation Strategy
 

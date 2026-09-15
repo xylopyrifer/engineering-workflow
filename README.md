@@ -53,7 +53,3 @@ Keep the architecture proportionate and deliver a working, verified result.
 ```
 
 Installation and discovery depend on the host agent. This repository provides the skill files, not an automatic installer. The included metadata permits implicit invocation when supported by the host.
-
-## Portability
-
-This English edition preserves the original six-stage workflow. The original author's local drive-specific storage rule is expressed as a requirement to honor the host's storage policy. Configure project paths, temporary directories, and caches for your own environment. The skill does not reconfigure the machine.
